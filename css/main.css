@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  display: flex;
+  height: 15.75vh;
+}
+
+.header-image{
+  height: auto;
+  width: 28vw;
+  background-image: url('../images/filmclub.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.header-nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 72vw;
+}
+
+.banner{
+  display: flex;
+  align-items: center;
+  height: 10.4vh;
+  width: auto;
+}
+
+.calendar-box{
+  display: flex;
+  background-color: #0B1942;
+  width: 100;
+}
+
+.month{
+  color: white;
+  background-color: #0B1942;
+}
+
+.calendar{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 45vh;
+  padding-bottom: 8%;
+}
+
+.day{
+  flex: 0 1 14.2%;
+  display: flex;
+  border: 1px solid #0B1942;
+  background-color: white;
+  height: 14%;
+}
+
+.day:nth-child(13), .day:nth-child(27){
+  background-color: #F5005B;
+}
+
+
+
+.day-number{
+  background-color: #0B1942;
+  color: white;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 25.5vh;
+  width: 100vw;
+}
