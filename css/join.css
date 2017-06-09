@@ -1,0 +1,135 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+header{
+  display: flex;
+  height: 6.7%;
+  width: 100vw;
+}
+
+.header-image{
+  height: auto;
+  width: 28.33vw;
+  background-image: url('../images/filmclub.png');
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5005B;
+}
+
+.header-nav{
+  display: flex;
+  flex-direction: column;
+  width: 72%;
+  text-align: center;
+  color: white;
+}
+
+.header-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00A5BF;
+  height: 33.3%;
+}
+
+.header-calendar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00B7D3;
+  height: 33.3%;
+}
+
+.header-join{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00D5E7;
+  height: 33.3%;
+}
+
+.header-bottom{
+  background: #81DFE7;
+}
+
+.join-form{
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.profile-picture{
+  background-image: url('../images/profile-placeholder.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35vh;
+
+}
+
+.labeltop{
+  display: block;
+  text-align: left;
+}
+
+.joinbutton{
+  display: block;
+  color: white;
+  background: #F5005B;
+}
+
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 10.85%;
+  width: 100vw;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: column;
+  height: 25.5vh;
+  width: 100vw;
+  text-align: center;
+  color: white;
+}
+
+.footer-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00A5BF;
+  height: 20.43%;
+}
+
+.footer-calendar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00B7D3;
+  height: 20.43%;
+}
+
+.footer-join{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00D5E7;
+  height: 20.43%;
+}
+
+.footer-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #81DFE7;
+  height: 38.7%;
+}

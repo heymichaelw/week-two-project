@@ -1,0 +1,201 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 2;
+}
+
+header{
+  display: flex;
+  height: 15.75vh;
+}
+
+.header-image{
+  height: auto;
+  width: 28vw;
+  background-image: url('../images/filmclub.png');
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #F5005B;
+}
+
+.header-nav{
+  display: flex;
+  flex-direction: column;
+  width: 72vw;
+  text-align: center;
+  color: white;
+}
+
+.header-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00A5BF;
+  height: 33.3%;
+}
+
+.header-calendar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00B7D3;
+  height: 33.3%;
+}
+
+.header-join{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00D5E7;
+  height: 33.3%;
+}
+
+.header-bottom{
+  background: #81DFE7;
+}
+
+.banner{
+  display: flex;
+  align-items: center;
+  height: 10.4vh;
+  width: auto;
+}
+
+.calendar-box{
+  display: flex;
+  background-color: #0B1942;
+  width: 100;
+}
+
+.month{
+  color: white;
+  background-color: #0B1942;
+}
+
+.calendar{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 45vh;
+  padding-bottom: 8%;
+}
+
+.day{
+  flex: 0 1 14.2%;
+  display: flex;
+  border: 1px solid #0B1942;
+  background-color: white;
+  height: 14%;
+}
+
+.day:nth-child(13), .day:nth-child(27){
+  background-color: #F5005B;
+}
+
+
+
+.day-number{
+  background-color: #0B1942;
+  color: white;
+  height: 50%;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 25.5vh;
+  width: 100vw;
+}
+
+.footer-nav{
+  display: flex;
+  flex-direction: column;
+  height: 25.5vh;
+  width: 100vw;
+  text-align: center;
+  color: white;
+}
+
+.footer-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00A5BF;
+  height: 20.43%;
+}
+
+.footer-calendar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00B7D3;
+  height: 20.43%;
+}
+
+.footer-join{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #00D5E7;
+  height: 20.43%;
+}
+
+.footer-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #81DFE7;
+  height: 38.7%;
+}
+
+
+@media (min-width: 545px){
+
+header{
+  height: 12.72vh;
+}
+
+.header-nav{
+  flex-direction: row;
+  height: 100%;
+}
+
+.header-nav div{
+  flex-grow: 1;
+}
+
+.header-home{
+  width: 15%;
+  height: 100%;
+}
+
+.header-calendar{
+  width: 15%;
+  height: 100%;
+}
+
+.header-join{
+  width: 15%;
+  height: 100%;
+}
+
+.header-bottom{
+  width: 40%;
+  height: 100%;
+}
+
+footer{
+  height: 12.72vh;
+}
+
+.footer-nav{
+  flex-direction: row;
+  height: 100%;
+}
+
+
+}
