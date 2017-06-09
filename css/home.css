@@ -67,7 +67,7 @@ main{
   flex-direction: column;
   height: 29.2%;
   /*margin: 5%;*/
-  padding: 5%;
+  padding: 2%;
 }
 
 .involved-heading{
@@ -107,7 +107,7 @@ main{
   display: flex;
   margin: 2% 2% 2% 2%;
   height: 28.45%;
-  padding: 6%;
+  padding: 2%;
 }
 
 .rash-image{
@@ -124,6 +124,10 @@ main{
 .rash-entry{
   flex: 1 1 40%;
   margin-left: 10%;
+}
+
+.rash-points{
+  list-style: circle;
 }
 
 .next-films{
@@ -310,10 +314,46 @@ footer{
 
 @media (min-width: 769px){
 
+header{
+  height: 7.7vh;
+}
 
 
+.header-home{
+  width: 10%;
+  height: 100%;
+}
 
+.header-calendar{
+  width: 10%;
+  height: 100%;
+}
 
+.header-join{
+  width: 10%;
+  height: 100%;
+}
+
+.header-bottom{
+  width: 60%;
+  height: 100%;
+}
+
+.up-next{
+  flex-direction: row;
+}
+
+.next-heading{
+
+}
+
+.rashomon, .next-films{
+  flex: 1 1 50%;
+}
+
+.movie-poster{
+  flex: 1 1 50%;
+}
 
 
 }
